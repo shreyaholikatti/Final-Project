@@ -1,0 +1,27 @@
+body{
+  background-color: cornflowerblue
+}
+
+h1 {
+  position: relative;
+  color: white;
+  padding-top: 200;
+}
+img{
+  position: relative;
+  padding-top: 30;
+}
+
+h2{
+  position: relative;
+  color: grey;
+  padding-top: 100;
+
+}
+
+.attribute{
+  position: relative;
+  color: white;
+  padding-top:100
+
+}
