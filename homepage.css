@@ -1,0 +1,54 @@
+h1{
+  text-align:center;
+  position:relative;
+  font-size: 40px;
+  color: white;
+}
+
+.topbar{
+  background-color: cornflowerblue;
+  color: white;
+  margin-top: 20px;
+
+}
+
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 40px;
+  color: grey;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 40px;
+  color: grey;
+}
+
+h4{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 40px;
+  color: grey;
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 40px;
+  color: grey;
+}
+
+h6{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 40px;
+  color: grey;
+}
