@@ -4,5 +4,6 @@ function handle(e){
 
         // alert("Enter was pressed was presses");
         window.location.href = "num_of_people.html";
+  
     }
 }
