@@ -1,8 +1,7 @@
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: cornflowerblue;
-  overflow: hidden;
-  bottom:0
+  overflow: hidden
 }
 
 /* Style the links inside the navigation bar */
