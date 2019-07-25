@@ -15,7 +15,7 @@ img{
 h2{
   position: relative;
   color: grey;
-  padding-top: 100;
+  padding-top: 10;
 
 }
 
@@ -24,4 +24,25 @@ h2{
   color: white;
   padding-top:100
 
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: white;
+  text-decoration: none;
+}
 }

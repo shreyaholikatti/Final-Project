@@ -1,6 +1,11 @@
 body{
   background-image: url(homepage.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px 30px;
+
+
 }
   h1{
   text-align:center;
@@ -12,7 +17,7 @@ body{
 .topbar{
   background-color: cornflowerblue;
   color: white;
-  margin-top: 20px;
+
 
 }
 
