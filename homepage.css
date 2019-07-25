@@ -1,4 +1,7 @@
-h1{
+body{
+    background-image: url(travel.jpg);
+}
+  h1{
   text-align:center;
   position:relative;
   font-size: 40px;
