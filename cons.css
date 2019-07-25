@@ -6,6 +6,25 @@ h1{
   color: cornflowerblue;
 }
 
-select {
-  font-size: 30;
+
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited{
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active{
+    color: white;
+    text-decoration: none;
+  }
+
 }
