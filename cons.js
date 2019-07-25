@@ -3,6 +3,7 @@ function handle(e){
         e.preventDefault(); // Ensure it is only this code that rusn
 
         // alert("Enter was pressed was presses");
+        window.location.href = "enter_destination.html";
         window.location.href = "num_of_people.html"
   
     }
