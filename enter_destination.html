@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <title>Consilium</title>
     <link rel="stylesheet" href="planning.css">
-    <script 
-        src="cons.js"
-        onKeyPress= handle(event)></script>
+    <script src="cons.js"></script>
   </head>
 <body>
   <link href="https://fonts.googleapis.com/css?family=Bitter|Oswald&display=swap" rel="stylesheet">
@@ -18,7 +16,8 @@
     rows = "1.5"
     cols = "20"
     textalign = "center"
-    placeholder= city,state></textarea>
+    placeholder= "city,state"
+    onKeyPress= "handle(event)"></textarea>
   </p>
 </body>
 </html>
