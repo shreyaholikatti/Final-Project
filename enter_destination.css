@@ -1,0 +1,22 @@
+h1{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  color: cornflowerblue
+}
+
+p{
+  text-align: center
+}
+
+textarea{
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: grey;
+  border-bottom-style: double;
+  font-size: 30px;
+  color: grey;
+  font-family: 'Oswald'
+}
