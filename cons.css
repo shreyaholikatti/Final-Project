@@ -5,3 +5,7 @@ h1{
   padding-top: 200;
   color: cornflowerblue;
 }
+
+select {
+  font-size: 30;
+}
