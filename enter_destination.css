@@ -2,15 +2,21 @@ h1{
   text-align:center;
   position:relative;
   font-size: 100px;
-  padding-top: 200;
-  color: cornflowerblue;
+  color: cornflowerblue
 }
 
+p{
+  text-align: center
+}
 
-h2{
+textarea{
   text-align: center;
-  position: relative;
-  color:grey;
-  padding-top:100;
-
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: grey;
+  border-bottom-style: double;
+  font-size: 30px;
+  color: grey;
+  font-family: 'Oswald'
 }
