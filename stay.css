@@ -9,7 +9,7 @@
 
 /* Style the links inside the navigation bar */
 .navbar a {
-  float: middle;
+  float: left;
   display: block;
   color: #808080;
   text-align: center;
