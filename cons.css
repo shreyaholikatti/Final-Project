@@ -5,7 +5,9 @@ h1{
   padding-top: 200;
   color: cornflowerblue;
 }
-
+select {
+  font-size: 60;
+}
 
   a:link {
     text-decoration: none;
@@ -26,5 +28,3 @@ h1{
     color: white;
     text-decoration: none;
   }
-
-}
