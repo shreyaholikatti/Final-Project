@@ -10,7 +10,7 @@ h2{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
-  color: blacks;
+  color: lightgrey;
 }
 
 h3{
@@ -104,14 +104,15 @@ h3{
     text-decoration: none;
   }
   .button{
-
     background-color: cornflowerblue;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: incline-block;
     font-size: 16px;
+    width: 170px;
+    height: 80px;
   }
   }
