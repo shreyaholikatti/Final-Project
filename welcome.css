@@ -18,6 +18,15 @@ h2{
   font-size: 30px;
 }
 
+h3{
+  position: relative;
+  color: grey;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
 .attribute{
   position: relative;
   color: white;
