@@ -2,7 +2,8 @@ h1{
   text-align:center;
   position:relative;
   font-size: 100px;
-  color: cornflowerblue
+  color: cornflowerblue;
+  font-family: 'Bitter';
 }
 
 p{
