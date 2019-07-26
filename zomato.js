@@ -30,7 +30,7 @@ function getData() {
       // console.log(result);
       // what to do for each item in dataFile
       var txt = document.createElement("p");  // Create with DOM
-      txt.innerHTML = "Results: " + "\n" + name + " " + object;
+      txt.HTML = "Results: " + "\n" + name + " " + object;
       var resultDiv = document.getElementById("result");
       resultDiv.append(txt);
     });
@@ -89,7 +89,7 @@ function saveTextAsFile()
     var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
     var downloadLink = document.createElement("a");
     downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = "Download File";
+    downloadLink.HTML = "Download File";
 
     if (window.webkitURL != null)
     {
