@@ -4,7 +4,6 @@ position:relative;
 font-size: 60px;
 color: black;
 padding-top: 50px;
-font-family: 'Bitter'
 }
 h2{
   text-align:center;
@@ -12,7 +11,6 @@ h2{
   font-size: 30px;
   padding-top: 200;
   color: cornflowerblue;
-  font-family: 'Oswald'
 }
 select {
   font-size: 60;
