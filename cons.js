@@ -7,6 +7,6 @@
 
 function handle(e){
     if(e.keyCode === 13){
-        response.sendRedirect("https://shreyaholikatti.github.io/Final-Project/number_of_people.html");
+        response.sendRedirect("https://shreyaholikatti.github.io/Final-Project/num_of_people.html");
     }
 }
