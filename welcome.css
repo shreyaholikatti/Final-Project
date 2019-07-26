@@ -10,15 +10,8 @@ h1{
   font-size: 100px;
 }
 
-h2{
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  position: relative;
-  color: white;
-  font-size: 30px;
-}
 
-h3{
+h2{
   position: relative;
   color: grey;
   padding-top: 10;
