@@ -1,12 +1,18 @@
 h1{
+<<<<<<< HEAD
   text-align:center;
   position:relative;
   font-size: 100px;
   padding-top: 10;
+=======
+  align-text: center;
+  font-family: 'Bitter';
+>>>>>>> ed797abb4d2485c0119bcd0c3442e52211462c01
   color: cornflowerblue;
 }
 
 h2{
+<<<<<<< HEAD
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
@@ -113,3 +119,9 @@ label{
     height: 80px;
   }
   }
+=======
+  align-text: center;
+  font-family: 'Oswald';
+  color: grey;
+}
+>>>>>>> ed797abb4d2485c0119bcd0c3442e52211462c01
