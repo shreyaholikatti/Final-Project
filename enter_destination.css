@@ -6,6 +6,16 @@ h1{
   font-family: 'Bitter'
 }
 
+h2{
+  position: relative;
+  color: grey;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
+
 p{
   text-align: center
 }
