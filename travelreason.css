@@ -27,10 +27,9 @@ label{
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 /* Hide the browser's default radio button */
