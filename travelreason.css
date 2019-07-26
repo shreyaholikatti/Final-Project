@@ -4,13 +4,14 @@ h1{
   font-size: 100px;
   padding-top: 10;
   color: cornflowerblue;
+  font-family: 'Bitter';
 }
 
 h2{
   font-family: 'Oswald', sans-serif;
-  text-align: center;o
+  text-align: center;
   position: relative;
-  color: grey;
+  color: lightgrey;
 }
 
 label{
