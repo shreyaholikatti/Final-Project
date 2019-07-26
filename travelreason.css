@@ -10,7 +10,7 @@ h2{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
-  color: grey;
+  color: white;
 }
 
 h3{
@@ -19,6 +19,14 @@ h3{
   position: relative;
   color: cornflowerblue;
 }
+
+h4{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  position: relative;
+  color: grey;
+}
+
 
 /* Customize the label (the container) */
 .container {
@@ -111,7 +119,7 @@ h3{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
   }
   }
