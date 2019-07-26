@@ -5,13 +5,13 @@ body{
   background-size: cover;
   margin: 0px 30px;
 
-
 }
   h1{
-  text-align:center;
+  text-align:left;
   position:relative;
   font-size: 60px;
-  color: white;
+  color: black;
+  padding-top: 50px
 }
 
 .topbar{
@@ -29,11 +29,10 @@ img{
 
 
 h2{
-  font-family: 'Oswald', sans-serif;
   text-align:left;
   position:relative;
-  font-size: 50px;
-  color: white;
+  font-size: 30px;
+  color: black;
 }
 
 h3{
@@ -66,4 +65,34 @@ h6{
   position:relative;
   font-size: 50px;
   color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gainsboro;
+  color: black;
 }
