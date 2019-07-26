@@ -10,7 +10,7 @@ h2{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
-  color: blacks;
+  color: lightgrey;
 }
 
 h3{
@@ -19,6 +19,7 @@ h3{
   position: relative;
   color: cornflowerblue;
 }
+
 
 /* Customize the label (the container) */
 .container {
@@ -47,7 +48,6 @@ h3{
 .checkmark {
   position: absolute;
   top: 0;
-  left:500;
   height: 25px;
   width: 25px;
   background-color: #eee;
@@ -111,7 +111,9 @@ h3{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: incline-block;
     font-size: 16px;
+    width: 170px;
+    height: 80px;
   }
   }
