@@ -5,6 +5,13 @@ h1{
   padding-top: 200;
   color: cornflowerblue;
 }
+h3{
+  text-align:center;
+  position:relative;
+  font-size: 30px;
+  padding-top: 200;
+  color: cornflowerblue;
+}
 select {
   font-size: 60;
 }
