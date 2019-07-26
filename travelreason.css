@@ -52,6 +52,7 @@ h3{
   width: 25px;
   background-color: #eee;
   border-radius: 50%;
+  float: left
 }
 
 /* On mouse-over, add a grey background color */
@@ -113,6 +114,5 @@ h3{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    float: left
   }
   }
