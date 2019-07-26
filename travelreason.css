@@ -20,8 +20,6 @@ h3{
   color: cornflowerblue;
 }
 
-
-/* Customize the label (the container) */
 .container {
   display: block;
   position: relative;
@@ -40,14 +38,13 @@ h3{
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 0;
-  width: 0;
 }
 
 /* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 0;
+  left: 0;
   height: 25px;
   width: 25px;
   background-color: #eee;
@@ -61,7 +58,7 @@ h3{
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: cornflowerblue;
+  background-color: #2196F3;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -78,42 +75,10 @@ h3{
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-}  a:link {
-    text-decoration: none;
-    color: white;
-  }
-
-  a:visited{
-    text-decoration: none;
-    color: white;
-  }
-
-  a:hover{
-    color: white;
-    text-decoration: none;
-  }
-
-  a:active{
-    color: white;
-    text-decoration: none;
-  }
-  .button{
-
-    background-color: cornflowerblue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: incline-block;
-    font-size: 16px;
-    width: 170px;
-    height: 80px;
-  }
-  }
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
