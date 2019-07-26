@@ -6,6 +6,7 @@ h1 {
   position: relative;
   color: white;
   padding-top: 200;
+  font-family: 'Bitter'
 }
 img{
   position: relative;
@@ -16,6 +17,7 @@ h2{
   position: relative;
   color: grey;
   padding-top: 10;
+  font-family: 'Oswald'
 
 }
 
