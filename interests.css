@@ -1,0 +1,116 @@
+h1{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  padding-top: 10;
+  color: cornflowerblue;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  position: relative;
+  color: lightgrey;
+}
+
+label{
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  color: cornflowerblue;
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  left: 550;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+  a:visited{
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:active{
+    color: white;
+    text-decoration: none;
+  }
+  .button{
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    margin-top: 60;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: incline-block;
+    font-size: 16px;
+    width: 170px;
+    height: 80px;
+  }
+  }
