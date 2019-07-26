@@ -17,3 +17,30 @@ h2{
   color: white;
   font-size: 30px;
 }
+
+.attribute{
+  position: relative;
+  color: white;
+  padding-top:100
+
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a:active{
+  color: white;
+  text-decoration: none;
+}
