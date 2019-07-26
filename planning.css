@@ -4,6 +4,7 @@ h1{
   font-size: 100px;
   padding-top: 200;
   color: cornflowerblue;
+  font-family: 'Bitter'
 }
 
 
@@ -12,5 +13,6 @@ h2{
   position: relative;
   color:grey;
   padding-top:100;
+  font-family: 'Oswald'
 
 }
