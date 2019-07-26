@@ -1,26 +1,16 @@
-<<<<<<< HEAD
-<<<<<<<< HEAD:welcome.css
+
 h1{
-<<<<<<< HEAD
   text-align:center;
   position:relative;
   font-size: 100px;
   padding-top: 10;
-=======
-  align-text: center;
+  text-align: center;
   font-family: 'Bitter';
->>>>>>> ed797abb4d2485c0119bcd0c3442e52211462c01
-=======
-h1{
-  align-text: center;
-  font-family: 'Bitter';
->>>>>>> ed797abb4d2485c0119bcd0c3442e52211462c01
   color: cornflowerblue;
+  font-size: 100px;
 }
 
 h2{
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
@@ -131,6 +121,9 @@ label{
 =======
 >>>>>>> ed797abb4d2485c0119bcd0c3442e52211462c01
   align-text: center;
+=======
+  text-align: center;
+>>>>>>> adf2010ac1d5037d4c9427af0787617f2d8fb825
   font-family: 'Oswald';
   color: grey;
 }
