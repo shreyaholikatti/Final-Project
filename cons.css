@@ -3,14 +3,16 @@ text-align:left;
 position:relative;
 font-size: 60px;
 color: black;
-padding-top: 50px
+padding-top: 50px;
+font-family: 'Bitter'
 }
-h3{
+h2{
   text-align:center;
   position:relative;
   font-size: 30px;
   padding-top: 200;
   color: cornflowerblue;
+  font-family: 'Oswald'
 }
 select {
   font-size: 60;
