@@ -1,11 +1,12 @@
 h1{
-  align-text: center;
+  text-align: center;
   font-family: 'Bitter';
   color: cornflowerblue;
+  font-size: 100px;
 }
 
 h2{
-  align-text: center;
+  text-align: center;
   font-family: 'Oswald';
   color: grey;
 }
