@@ -2,23 +2,21 @@ h1{
   text-align:center;
   position:relative;
   font-size: 100px;
-  padding-top: 200;
-  color: cornflowerblue;
+  color: cornflowerblue
 }
 
-select {
-  font-size: 30;
+p{
+  text-align: center
 }
 
-.button {
-  background-color: cornflowerblue;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+textarea{
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-
-
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: grey;
+  border-bottom-style: double;
+  font-size: 30px;
+  color: grey;
+  font-family: 'Oswald'
 }
