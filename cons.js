@@ -1,4 +1,4 @@
-function handle(e){
+function handle(enter){
     if(e.keyCode === 13){
         e.preventDefault(); // Ensure it is only this code that rusn
 
