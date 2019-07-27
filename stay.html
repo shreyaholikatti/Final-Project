@@ -18,7 +18,6 @@ var infoWindow ;
 var requests;
 var service;
 var markers = [];
-
 function initialize(){
   var center = new google.maps.LatLng(37.422, -122.084058);
   map = new google.maps.Map(document.getElementById('map'), {
@@ -33,18 +32,15 @@ function initialize(){
    infoWindow = new google.maps.InfoWindow();
    service = new google.maps.places.PlacesService(map);
   service.nearbySearch(request, callback);
-
 google.maps.event.addListener(map, 'rightclick', function(event){
   map.setCenter(event.latLng)
   clearResults(markers)
-
   var request = {
     location: event.latLng,
     radius: 8047,
     types: ['hotel']
   };
   service.nearbySearch(request, callback);
-
 })
 }
 function callback(results, status) {
@@ -60,7 +56,6 @@ function createMarker(place){
     map: map,
     position: place.geometry.location
   });
-
   google.maps.event.addListener(marker, 'click', function(){
     infoWindow.setContent(place.name);
     infoWindow.open(map, this);
@@ -70,12 +65,10 @@ function createMarker(place){
 function clearResults(markers){
   for (var m in markers){
     markers[m].setMap(null)
-
   }
   markers = []
 }
   google.maps.event.addDomListener(window, 'load', initialize);
-
 </script>
 
 <style>
