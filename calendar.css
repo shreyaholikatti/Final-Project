@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+h2{
+  font-family: 'Oswald'
+}
+
+li{
+  font-family: 'Oswald'
+}
+
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
