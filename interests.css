@@ -9,7 +9,7 @@ h1{
 
 h2{
   position: relative;
-  color: grey;
+  color: black;
   padding-top: 10;
   font-family: 'Oswald';
   text-align: center;
@@ -21,7 +21,7 @@ h3{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
-  color: grey;
+  color: black;
   font-size: 30px
 }
 
