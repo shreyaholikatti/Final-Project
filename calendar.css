@@ -15,10 +15,6 @@ input.placeholder{
   font-family: 'Oswald'
 }
 
-span{
-  font-family: 'Oswald'
-}
-
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -30,7 +26,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: grey;
+  background: white;
   font-size: 18px;
   transition: 0.2s;
 
@@ -105,6 +101,7 @@ input {
   padding: 10px;
   float: left;
   font-size: 16px;
+  font-family: 'Oswald'
 }
 
 /* Style the "Add" button */
@@ -115,10 +112,11 @@ input {
   color: #555;
   float: left;
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  font-family: 'Oswald'
 }
 
 .addBtn:hover {
