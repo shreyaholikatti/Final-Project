@@ -188,5 +188,5 @@ a{
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: lightgrey;
-  color: white;
+  color: black;
 }
