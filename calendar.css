@@ -11,6 +11,14 @@ li{
   font-family: 'Oswald'
 }
 
+input{
+  font-family: 'Oswald'
+}
+
+span{
+  font-family: 'Oswald'
+}
+
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
