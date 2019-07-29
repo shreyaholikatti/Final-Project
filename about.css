@@ -2,7 +2,7 @@ h1{
   text-align:left;
   position:relative;
   font-size: 60px;
-  color: black;
+  color: cornflowerblue;
   padding-top: 50px;
   font-family: 'Bitter'
 }
@@ -15,13 +15,13 @@ a{
 
 h2{
   text-align: center;
-  color: grey;
+  color: black;
   font-family: 'Oswald'
 }
 
 h3{
   text-align: center;
-  color: grey;
+  color: black;
   font-family: 'Oswald'
 }
 
