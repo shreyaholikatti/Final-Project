@@ -1,20 +1,50 @@
-/* Place the navbar at the bottom of the page, and make it stick */
-.navbar {
-  background-color: cornflowerblue;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+h1{
+  text-align:left;
+  position:relative;
+  font-size: 60px;
+  color: black;
+  padding-top: 50px;
+  font-family: 'Bitter'
 }
 
-/* Style the links inside the navigation bar */
-.navbar a {
+a{
+  font-size: 30px;
+  color: white;
+  font-family: 'Bitter'
+}
+
+.topbar{
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+
+}
+
+.topnav a {
   float: left;
-  display: block;
-  color: grey;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: 'Bitter'
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gainsboro;
+  color: black;
 }
