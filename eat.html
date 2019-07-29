@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-  <meta charset="utf-8">
-  <meta name = "viewport" content="initial-scale=1.0, user-scalable=no">
-  <title>Consilium</title>
-  <link rel="stylesheet" href="eat.css">
-  <script src="zomato.js"></script>
-</head>
-<div class="topnav">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="meet_the_team.html"> Meet the Team</a>
-<a href="contact_us.html">Contact</a>
-</div>
-<body>
-<link href="https://fonts.googleapis.com/css?family=Bitter|Oswald&display=swap" rel="stylesheet">
-
-<div id="results"></div>
-
-</body>
- 
+<h1> Stay </h1>
+   <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="meet_the_team.html"> Meet the Team</a>
+      <a href="contact_us.html">Contact</a>
    </div>
-   <link rel="stylesheet" href="eat.css">
+   <link rel="stylesheet" href="stay.css">
    <link href="https://fonts.googleapis.com/css?family=Bitter|Oswald&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <!-- makes work on all devices -
+    <!-- makes work on all devices -->
     <meta name = "viewport" content="initial-scale=1.0, user-scalable=no">
     <script type = "text/javascript" src= "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB6KcGaZjlN0DCRMbJcnwB8Jrbi3cqGnPk">
 </script>
@@ -34,7 +21,6 @@ var infoWindow ;
 var requests;
 var service;
 var markers = [];
-
 function initialize(){
   var center = new google.maps.LatLng(37.422, -122.084058);
   map = new google.maps.Map(document.getElementById('map'), {
@@ -44,23 +30,20 @@ function initialize(){
    request = {
     location: center,
     radius: 8047,
-    types: ['restaurant']
+    types: ['hotel']
   };
    infoWindow = new google.maps.InfoWindow();
    service = new google.maps.places.PlacesService(map);
   service.nearbySearch(request, callback);
-
-google.maps.event.addListener(map, 'rightclick', function(event){
+  google.maps.event.addListener(map, 'rightclick', function(event){
   map.setCenter(event.latLng)
   clearResults(markers)
-
   var request = {
     location: event.latLng,
     radius: 8047,
-    types: ['restaurant']
+    types: ['hotel']
   };
   service.nearbySearch(request, callback);
-
 })
 }
 function callback(results, status) {
@@ -76,7 +59,6 @@ function createMarker(place){
     map: map,
     position: place.geometry.location
   });
-
   google.maps.event.addListener(marker, 'click', function(){
     infoWindow.setContent(place.name);
     infoWindow.open(map, this);
@@ -86,12 +68,10 @@ function createMarker(place){
 function clearResults(markers){
   for (var m in markers){
     markers[m].setMap(null)
-
   }
   markers = []
 }
   google.maps.event.addDomListener(window, 'load', initialize);
-
 </script>
 
 <style>
@@ -109,4 +89,3 @@ function clearResults(markers){
       </div>
   </body>
 </html>
-s
