@@ -187,6 +187,6 @@ a{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: gainsboro;
-  color: black;
+  background-color: lightgrey;
+  color: white;
 }
