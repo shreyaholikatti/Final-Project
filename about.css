@@ -13,6 +13,18 @@ a{
   font-family: 'Bitter'
 }
 
+h2{
+  text-align: center;
+  color: grey;
+  font-family: 'Oswald'
+}
+
+h3{
+  text-align: center;
+  color: grey;
+  font-family: 'Oswald'
+}
+
 .topbar{
   background-color: black;
   color: white;
