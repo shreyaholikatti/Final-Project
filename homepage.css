@@ -10,7 +10,7 @@ body{
   text-align:left;
   position:relative;
   font-size: 60px;
-  color: cornflowerblue;
+  color: black;
   padding-top: 50px;
   font-family: 'Bitter'
 }
@@ -22,7 +22,7 @@ a{
 }
 
 .topbar{
-  background-color: cornflowerblue;
+  background-color: black;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -76,7 +76,7 @@ h6{
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: grey;
+  background-color: black;
   overflow: hidden;
 
 }
