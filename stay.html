@@ -35,7 +35,7 @@ function initialize(){
    infoWindow = new google.maps.InfoWindow();
    service = new google.maps.places.PlacesService(map);
   service.nearbySearch(request, callback);
-google.maps.event.addListener(map, 'rightclick', function(event){
+  google.maps.event.addListener(map, 'rightclick', function(event){
   map.setCenter(event.latLng)
   clearResults(markers)
   var request = {
