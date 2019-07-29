@@ -94,7 +94,7 @@ h6{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: grey;
+  background-color: lightgrey;
   color: white;
 }
 
