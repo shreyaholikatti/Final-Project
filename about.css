@@ -7,6 +7,10 @@ h1{
   font-family: 'Bitter'
 }
 
+.contain {
+  object-fit: contain;
+}
+
 a{
   font-size: 30px;
   color: white;
