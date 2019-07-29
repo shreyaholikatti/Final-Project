@@ -8,7 +8,7 @@ h1{
 
 h2{
   position: relative;
-  color: grey;
+  color: black;
   padding-top: 10;
   font-family: 'Oswald';
   text-align: center;
@@ -25,9 +25,9 @@ textarea{
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom-color: grey;
+  border-bottom-color: black;
   border-bottom-style: double;
   font-size: 30px;
-  color: grey;
+  color: black;
   font-family: 'Oswald'
 }
