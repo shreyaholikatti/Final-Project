@@ -4,14 +4,25 @@ h1{
   font-size: 100px;
   padding-top: 10;
   color: cornflowerblue;
-  font-family: 'Bitter'
+  font-family: 'Bitter';
 }
 
 h2{
+  position: relative;
+  color: black;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
+
+h3{
   font-family: 'Oswald', sans-serif;
   text-align: center;
   position: relative;
-  color: white;
+  color: black;
+  font-size: 30px
 }
 
 label{

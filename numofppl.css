@@ -6,6 +6,16 @@ h1{
   font-family: 'Bitter';
 }
 
+h2{
+  position: relative;
+  color: black;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
+
 p{
   text-align: center
 }
@@ -15,9 +25,9 @@ textarea{
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom-color: grey;
+  border-bottom-color: black;
   border-bottom-style: double;
   font-size: 30px;
-  color: grey;
+  color: black;
   font-family: 'Oswald'
 }

@@ -10,14 +10,16 @@ h1{
   font-size: 100px;
 }
 
-h2{
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  position: relative;
-  color: white;
-  font-size: 30px;
-}
 
+h2{
+  position: relative;
+  color: black;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
 .attribute{
   position: relative;
   color: white;
