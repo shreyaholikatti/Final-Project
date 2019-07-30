@@ -1,5 +1,7 @@
-function getLocation (){
-  sessionStorage.getItem("lat", resultLoc["lat"]);
-  sessionStorage.getItem("lng", resultLoc["lng"]);
-}
-getlocation()
+// function getLocation (){
+//   var lat = sessionStorage.getItem("lat", resultLoc["lat"]);
+//   var lng = sessionStorage.getItem("lng", resultLoc["lng"]);
+//
+//   console.log(lat);
+// }
+// getlocation()

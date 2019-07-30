@@ -22,7 +22,12 @@ var requests;
 var service;
 var markers = [];
 function initialize(){
-  var center = new google.maps.LatLng(37.422, -122.084058);
+  var lat = sessionStorage.getItem("lat");
+  var lng = sessionStorage.getItem("lng");
+
+  console.log(lat + " , " + lng);
+
+  var center = new google.maps.LatLng(lat, lng);
   map = new google.maps.Map(document.getElementById('map'), {
     center: center,
     zoom: 13
