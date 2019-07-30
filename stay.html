@@ -46,7 +46,7 @@ google.maps.event.addListener(map, 'rightclick', function(event){
   var request = {
     location: event.latLng,
     radius: 8047,
-    types: ['hotel']
+    types: ['hotel','resort','inn','hostel']
   };
   service.nearbySearch(request, callback);
 })
