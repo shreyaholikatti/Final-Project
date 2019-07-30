@@ -16,90 +16,56 @@
   <h1>My Google Map</h1>
   <div id="map"></div>
   <script>
-    function initMap(){
-      // Map options
-      var options = {
-        zoom:8,
-        center:{lat:42.3601,lng:-71.0589}
-      }
-
-      // New map
-      var map = new google.maps.Map(document.getElementById('map'), options);
-
-      // Listen for click on map
-      google.maps.event.addListener(map, 'click', function(event){
-        // Add marker
-        addMarker({coords:event.latLng});
-      });
-
-      /*
-      // Add marker
-      var marker = new google.maps.Marker({
-        position:{lat:42.4668,lng:-70.9495},
-        map:map,
-        icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-      });
-
-      var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Lynn MA</h1>'
-      });
-
-      marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-      });
-      */
-
-      // Array of markers
-      var markers = [
+    {
+    "html_attributions": [],
+    "results": [
         {
-          coords:{lat:42.4668,lng:-70.9495},
-          iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-          content:'<h1>Lynn MA</h1>'
-        },
-        {
-          coords:{lat:42.8584,lng:-70.9300},
-          content:'<h1>Amesbury MA</h1>'
-        },
-        {
-          coords:{lat:42.7762,lng:-71.0773}
+            "geometry": {
+                "location": {
+                    "lat": 13.6899991,
+                    "lng": 100.7501124
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 13.73075215,
+                        "lng": 100.76245305
+                    },
+                    "southwest": {
+                        "lat": 13.67641475,
+                        "lng": 100.74599885
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/airport-71.png",
+            "id": "d29fc1de22664c36a10939872f74c0ee73a5f2d1",
+            "name": "ท่าอากาศยานสุวรรณภูมิ",
+            "photos": [
+                {
+                    "height": 1125,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102061212321633747417/photos\">Gerrit Holzhueter</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4UEdWYhlckR1sU1sifcZ2H9w8l7zHtNwhapak7X1-ifJPgp4FjeESb8uDAtFRWKvRK51Ac9kr52TmhBC5zHJ36oLrAElDxr7kdRpHhwh_DcM1VUTXVm-eITulLtHcTPPEhCQPhqexHamLP5b4ybTh_dlGhSPyGW1SHuS9JKyjgGj0lZyPHKZTQ",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJTydCFXdnHTERB3oVT1UZDRI",
+            "rating": 4.2,
+            "reference": "CmRRAAAAue7D06cxYkC3JJnZvs2qaCfAzlEJmkWP42DnJIWJ1JTnK1FLeF2sJutuDveybjP8ly1s7iXlLvL4oLCBcBw4Xfw3m0IN18Du-QZ47TGPJFTClS2y1iKJtkQkQckldHd9EhCiWS73Yjx95gIU48wepAqKGhTvzqmaUedJ2h21afG-HpHlJDcYNw",
+            "scope": "GOOGLE",
+            "types": [
+                "airport",
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "999 หมู่ 1, Nong Prue, Bang Phli"
         }
-      ];
-
-      // Loop through markers
-      for(var i = 0;i < markers.length;i++){
-        // Add marker
-        addMarker(markers[i]);
-      }
-
-      // Add Marker Function
-      function addMarker(props){
-        var marker = new google.maps.Marker({
-          position:props.coords,
-          map:map,
-          //icon:props.iconImage
-        });
-
-        // Check for customicon
-        if(props.iconImage){
-          // Set icon image
-          marker.setIcon(props.iconImage);
-        }
-
-        // Check content
-        if(props.content){
-          var infoWindow = new google.maps.InfoWindow({
-            content:props.content
-          });
-
-          marker.addListener('click', function(){
-            infoWindow.open(map, marker);
-          });
-        }
-      }
-    }
+    ],
+    "status": "OK"
+}
   </script>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AlzaSyDgEg037OsezD23mZ_5UWWYlr5KXBtlX8w&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=[YOUR API KEY]&location=13.681099891662598,100.74700164794922&radius=1000&name=Suvarnabhumi Airport&type=airport">
     </script>
 </body>
 </html>
