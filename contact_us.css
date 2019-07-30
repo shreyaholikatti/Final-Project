@@ -7,6 +7,26 @@ h1{
   font-family: 'Bitter'
 }
 
+h2{
+  font-family: 'Oswald'
+}
+
+label{
+  font-family: 'Oswald'
+}
+
+option{
+  font-family: 'Oswald'
+}
+
+input.placeholder{
+  font-family: 'Oswald'
+}
+
+input.value{
+  font-family: 'Oswald'
+}
+
 a{
   font-size: 30px;
   color: white;
