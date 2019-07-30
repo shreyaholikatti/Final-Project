@@ -3,14 +3,16 @@ h1{
   position:relative;
   font-size: 60px;
   color: cornflowerblue;
-  padding-top: 50px;
+  padding-top: 5px;
   font-family: 'Bitter'
 }
 
 a{
   font-size: 30px;
   color: white;
+  text-decoration: none;
   font-family: 'Bitter'
+
 }
 
 .topbar{
