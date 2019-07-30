@@ -35,7 +35,7 @@ function initialize(){
    request = {
     location: center,
     radius: 8047,
-    types: ['sight-seeing','garden','museum','monument','zoo','aquariam', 'conservation center','hiking trail',]
+    types: ['sight-seeing','garden','museum','monument','zoo','aquariam', 'conservation center','hiking trail']
   };
    infoWindow = new google.maps.InfoWindow();
    service = new google.maps.places.PlacesService(map);
@@ -46,7 +46,7 @@ function initialize(){
   var request = {
     location: event.latLng,
     radius: 8047,
-    types: ['sight-seeing']
+    types: ['sight-seeing','garden','museum','monument','zoo','aquariam', 'conservation center','hiking trail']
   };
   service.nearbySearch(request, callback);
 })
