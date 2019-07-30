@@ -27,6 +27,10 @@ input.placeholder{
   font-family: 'Oswald'
 }
 
+input{
+  font-family: 'Oswald'
+}
+
 input.value{
   font-family: 'Oswald'
 }
