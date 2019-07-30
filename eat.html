@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-<h1> Stay </h1>
+<h1> eat </h1>
    <div class="topnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="meet_the_team.html"> Meet the Team</a>
       <a href="contact_us.html">Contact</a>
    </div>
-   <link rel="stylesheet" href="stay.css">
+   <link rel="stylesheet" href="eat.css">
    <link href="https://fonts.googleapis.com/css?family=Bitter|Oswald&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <!-- makes work on all devices -->
@@ -30,7 +30,7 @@ function initialize(){
    request = {
     location: center,
     radius: 8047,
-    types: ['hotel']
+    types: ['restaurant','cafe']
   };
    infoWindow = new google.maps.InfoWindow();
    service = new google.maps.places.PlacesService(map);
@@ -41,7 +41,7 @@ function initialize(){
   var request = {
     location: event.latLng,
     radius: 8047,
-    types: ['hotel']
+    types: ['restaurant','cafe']
   };
   service.nearbySearch(request, callback);
 })
